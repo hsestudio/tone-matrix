@@ -1,0 +1,51 @@
+# Qt build files
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile
+*.o
+*.a
+*.so
+*.dylib
+
+# Qt Creator
+*.pro.user*
+.qmake.stash
+
+# Build directories
+build/
+Debug/
+Release/
+.build/
+
+# Object files
+*.obj
+*.lo
+*.la
+*.lai
+*.lai
+*.o
+*.obj
+*.exe
+*.out
+*.app
+
+# Dependency files
+*.d
+*.depend
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated files
+moc_*.h
+*.moc
+
+# Executables
+ToneMatrix
+ToneMatrix.exe
